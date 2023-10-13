@@ -1,0 +1,86 @@
+/* taskdesign.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #3498db; /* Navbar background color (e.g., blue) */
+}
+
+.navbar-brand {
+    color: #fff; /* Navbar brand (logo) color */
+}
+
+.navbar-brand:hover {
+    color: #f39c12; /* Hover color for the brand (e.g., orange) */
+}
+
+.nav-link {
+    color: #fff; /* Navigation link color */
+}
+
+.nav-link:hover {
+    color: #f39c12; /* Hover color for navigation links (e.g., orange) */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Toggler icon color (e.g., white) */
+}
+
+/* Page Styles */
+header {
+    background-color: #f1c40f; /* Header background color (e.g., yellow) */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff; /* Header text color */
+}
+
+main {
+    padding: 20px;
+}
+
+.task-list {
+    background-color: #ecf0f1; /* Task list background color (e.g., light gray) */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for task list */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495e; /* Footer background color (e.g., dark blue) */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Button Styles */
+.btn-add-task {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.btn-add-task:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+.btn-logout {
+    background-color: #e74c3c; /* Red button color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.btn-logout:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+}

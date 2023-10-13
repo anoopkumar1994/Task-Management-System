@@ -1,0 +1,57 @@
+/* custom.css */
+
+/* Style the body with a colorful background gradient */
+body {
+    background: linear-gradient(135deg, #ff6b6b, #6b47ff, #47ff6b); /* Replace with your desired gradient colors */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color */
+}
+
+/* Style the navigation bar with a colorful background */
+.navbar {
+    background: linear-gradient(90deg, #ff6b6b, #6b47ff, #47ff6b); /* Gradient background for navbar */
+}
+
+/* Navbar brand and link styles */
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Style the main content container with a colorful background */
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Header styles with colorful text */
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #ff6b6b; /* Header text color */
+}
+
+/* Paragraph text styles */
+p {
+    font-size: 18px;
+    color: #6b47ff; /* Paragraph text color */
+}
+
+/* Style the footer with a colorful background */
+.footer {
+    background: linear-gradient(90deg, #ff6b6b, #6b47ff, #47ff6b); /* Gradient background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add more custom styles and colors as needed */

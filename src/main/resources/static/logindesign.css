@@ -1,0 +1,60 @@
+/* logindesign.css */
+
+/* Background color for the login box */
+.login-box {
+    background-color: #f3f3f3; /* Light gray */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Background color for the form container */
+.form-container {
+    background-color: #fff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Text color for headings and labels */
+h1, label {
+    color: #333; /* Dark gray */
+}
+
+/* Background color and text color for form inputs */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    background-color: #f9f9f9; /* Lighter gray */
+    color: #333; /* Dark gray text */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Background color for the Login button */
+button[type="submit"] {
+    background-color: #007bff; /* Blue */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the Login button */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link color for the "Sign up" link */
+.signup-link a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+/* Hover effect for the "Sign up" link */
+.signup-link a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+
